@@ -1,0 +1,86 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+
+    <h1>Welcome to Projects Page</h1>
+    <!-- projects.ejs -->
+
+<h1><em>Here are Projects I am working on:</em></h1>
+<div class="project">
+  <img src="img/project1.png" alt="Project 1" class="project-image">
+  <div class="project-details">
+    <h2 class="project-heading">Project 1: E-commerce Website</h2>
+  <p>
+    This project involved developing a fully functional e-commerce website for a client.
+    I was responsible for implementing the front-end design using HTML, CSS, and JavaScript,
+    as well as integrating the back-end functionalities with Node.js and Express.
+  </p>
+  <p>Role: Front-end Developer</p>
+  <p>Outcome: Increased online sales by 30% and improved user experience.</p>
+</div>
+</div>
+</div>
+<div class="project">
+  <img src="img/project2.png" alt="Project 2" class="project-image">
+  <div class="project-details">
+    <h2 class="project-heading">Project 2: Mobile App Development</h2>
+    <p>
+      For this project, I developed a mobile app for both iOS and Android platforms using React Native.
+      The app focused on providing real-time weather information and customizable alerts.
+      I collaborated with a team of developers and designers to deliver a user-friendly and visually appealing application.
+    </p>
+    <p>Role: Full-stack Developer</p>
+    <p>Outcome: Featured in top app stores with a 4.8-star rating and over 100,000 downloads.</p>
+</div>
+</div>
+</div>
+<div class="project">
+  <img src="img/project3.jpg" alt="Project 1" class="project-image">
+  <div class="project-details">
+    <h2 class="project-heading">Project 3: Data Analysis Dashboard</h2>
+    <p>
+      In this project, I worked on developing a data analysis dashboard for a financial services company.
+      I used Python and libraries like Pandas and Matplotlib to process and visualize large datasets.
+      The dashboard allowed users to explore and analyze key financial metrics and generate interactive reports.
+    </p>
+    <p>Role: Data Analyst and Visualization Specialist</p>
+    <p>Outcome: Improved data-driven decision-making and reduced analysis time by 50%.</p>
+</div>
+</div>
+</div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+      <style>
+      .project {
+        display: flex;
+        margin-bottom: 60px;
+        
+      }
+    
+      .project-image {
+        width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    float: left;
+    margin-right: 20px;
+      }
+    
+      .project-details {
+        flex-grow: 1;
+        
+      }
+      
+      .project-heading {
+    color: #ff0000; /* Red color */
+  }
+      
+    </style>
+    
+
+
+   

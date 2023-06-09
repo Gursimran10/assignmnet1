@@ -1,0 +1,83 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+
+   <!-- services.ejs -->
+
+<!-- services.ejs -->
+
+<h1>Services</h1>
+
+<div class="services-container">
+  <div class="service">
+    <img src="img/service1.avif" alt="Service 1" class="service-image">
+    <div class="service-details">
+      <h2>General Programming</h2>
+      <p>
+        I offer general programming services using various languages such as Python, JavaScript,
+        and Java. Whether you need help with algorithm design, bug fixing, or code optimization,
+        I can assist you in achieving your programming goals.
+      </p>
+    </div>
+  </div>
+
+  <div class="service">
+    <img src="img/service2.png" alt="Service 2" class="service-image">
+    <div class="service-details">
+      <h2>Web Development</h2>
+      <p>
+        I specialize in web development using modern technologies such as HTML, CSS, JavaScript,
+        and frameworks like React and Node.js. From creating responsive websites to building
+        interactive web applications, I can bring your ideas to life on the web.
+      </p>
+    </div>
+  </div>
+
+  <div class="service">
+    <img src="img/service3.png" alt="Service 3" class="service-image">
+    <div class="service-details">
+      <h2>Mobile App Development</h2>
+      <p>
+        I offer mobile app development services for both iOS and Android platforms. Using tools
+        like React Native and Flutter, I can build cross-platform mobile apps that are fast,
+        user-friendly, and tailored to meet your specific requirements.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- CSS styles -->
+<style>
+  .services-container {
+    margin-bottom: 40px; /* Add spacing between services and footer */
+  }
+
+  .service {
+    display: flex;
+    margin-bottom: 20px;
+    height: 120px; /* Adjust the height as needed */
+  }
+
+  .service-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+  }
+
+  .service-details {
+    flex-grow: 1;
+  }
+</style>
+
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   
